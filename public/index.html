@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style-sheet.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Exchange Rate</title>
+  </head>
+  <body class="w3-mobile">
+    <h1 class="w3-display-topmiddle">Currency Converter</h1>
+    <div class="container w3-display-middle w3-mobile">
+      <form class="w3-mobile">
+        <label for="currency2">CONVERT</label><br />
+        <input type="text" id="currency1" name="currency1" placeholder="USD" />
+        <input type="text" id="rate1" name="rate1" placeholder="1.00" /><br />
+        <label for="currency2">TO</label><br />
+        <input type="text" id="currency2" name="currency2" placeholder="ZAR" />
+        <input
+          type="text"
+          id="rate2"
+          name="rate2"
+          placeholder="0.00"
+          disabled
+        /><br />
+        <button style="width: 25%" id="go" type="button" onclick="getData()">
+          Convert</button
+        ><br />
+        <button style="width: 25%" type="reset">Clear</button>
+        <script src="script.js" defer></script>
+      </form>
+    </div>
+    <footer style="position: absolute; bottom: 0">
+      Exchange rates taken from Rapid API's
+      <a
+        href="https://rapidapi.com/natkapral/api/currency-converter5/"
+        target="_blank"
+      >
+        Curency Converter
+      </a>
+      API.
+    </footer>
+  </body>
+</html>

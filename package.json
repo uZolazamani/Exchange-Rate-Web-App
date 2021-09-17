@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node": "^16.9.1",
+    "node-fetch": "~2.6.0",
+    "nodemon": "^2.0.12"
+  },
+  "name": "new-xd",
+  "version": "1.0.0",
+  "description": "Exchange Rate Web App by Z. Mazibuko",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zolazamani Mazibuko",
+  "license": "ISC"
+}

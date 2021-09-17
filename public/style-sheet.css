@@ -1,0 +1,11 @@
+body {
+  background-color: lavender;
+}
+.container {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  background-color: lavender;
+  margin-top: auto;
+  margin-left: auto;
+}
